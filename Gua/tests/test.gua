@@ -1,0 +1,10 @@
+ae = "a" //char
+bc = "abc" //string
+a = 1 //int
+b = 8
+global function sub(a, b)
+subtract = a - b
+Console.printl("number = "+subtract)
+// or
+Console.printl($"number = {subtract}")
+end
