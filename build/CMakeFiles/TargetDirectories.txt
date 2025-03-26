@@ -1,0 +1,3 @@
+C:/Gua/build/CMakeFiles/GuaInterpreter.dir
+C:/Gua/build/CMakeFiles/edit_cache.dir
+C:/Gua/build/CMakeFiles/rebuild_cache.dir

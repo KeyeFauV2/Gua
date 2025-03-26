@@ -1,0 +1,9 @@
+# ninja log v6
+6	4002	7647132425644706	CMakeFiles/GuaInterpreter.dir/src/GuaBaseListener.cpp.obj	d2ec944a558aee23
+29	4010	7647132425880314	CMakeFiles/GuaInterpreter.dir/src/GuaVisitor.cpp.obj	bb407d317fcc8d8f
+12	4081	7647132425719890	CMakeFiles/GuaInterpreter.dir/src/GuaBaseVisitor.cpp.obj	21e6804764e6ca59
+20	4085	7647132425795167	CMakeFiles/GuaInterpreter.dir/src/GuaListener.cpp.obj	2eb1403e031e2951
+16	4440	7647132425755003	CMakeFiles/GuaInterpreter.dir/src/GuaLexer.cpp.obj	d77a69f08d1142da
+35	4702	7647132425975541	CMakeFiles/GuaInterpreter.dir/src/main.cpp.obj	d9c64e14bf8cf565
+24	5571	7647132425835185	CMakeFiles/GuaInterpreter.dir/src/GuaParser.cpp.obj	ab88a8ab5b8326d4
+5572	5761	7647132481305597	GuaInterpreter.exe	6c72e27594991647
