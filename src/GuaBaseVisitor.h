@@ -23,6 +23,10 @@ public:
     return visitChildren(ctx);
   }
 
+  virtual std::any visitIncludeStmt(GuaParser::IncludeStmtContext *ctx) override {
+    return visitChildren(ctx);
+  }
+
   virtual std::any visitVarDecl(GuaParser::VarDeclContext *ctx) override {
     return visitChildren(ctx);
   }
@@ -47,7 +51,59 @@ public:
     return visitChildren(ctx);
   }
 
+  virtual std::any visitFunctionDecl(GuaParser::FunctionDeclContext *ctx) override {
+    return visitChildren(ctx);
+  }
+
+  virtual std::any visitParamList(GuaParser::ParamListContext *ctx) override {
+    return visitChildren(ctx);
+  }
+
+  virtual std::any visitClassDecl(GuaParser::ClassDeclContext *ctx) override {
+    return visitChildren(ctx);
+  }
+
+  virtual std::any visitClassBody(GuaParser::ClassBodyContext *ctx) override {
+    return visitChildren(ctx);
+  }
+
+  virtual std::any visitConstructorDecl(GuaParser::ConstructorDeclContext *ctx) override {
+    return visitChildren(ctx);
+  }
+
+  virtual std::any visitDeconstructorDecl(GuaParser::DeconstructorDeclContext *ctx) override {
+    return visitChildren(ctx);
+  }
+
+  virtual std::any visitInterfaceImplDecl(GuaParser::InterfaceImplDeclContext *ctx) override {
+    return visitChildren(ctx);
+  }
+
+  virtual std::any visitInterfaceDecl(GuaParser::InterfaceDeclContext *ctx) override {
+    return visitChildren(ctx);
+  }
+
+  virtual std::any visitInterfaceBody(GuaParser::InterfaceBodyContext *ctx) override {
+    return visitChildren(ctx);
+  }
+
+  virtual std::any visitFunctionSignature(GuaParser::FunctionSignatureContext *ctx) override {
+    return visitChildren(ctx);
+  }
+
   virtual std::any visitStringExpr(GuaParser::StringExprContext *ctx) override {
+    return visitChildren(ctx);
+  }
+
+  virtual std::any visitFloatExpr(GuaParser::FloatExprContext *ctx) override {
+    return visitChildren(ctx);
+  }
+
+  virtual std::any visitIdExpr(GuaParser::IdExprContext *ctx) override {
+    return visitChildren(ctx);
+  }
+
+  virtual std::any visitRelationalExpr(GuaParser::RelationalExprContext *ctx) override {
     return visitChildren(ctx);
   }
 
@@ -55,7 +111,7 @@ public:
     return visitChildren(ctx);
   }
 
-  virtual std::any visitFloatExpr(GuaParser::FloatExprContext *ctx) override {
+  virtual std::any visitFunctionCallExpr(GuaParser::FunctionCallExprContext *ctx) override {
     return visitChildren(ctx);
   }
 
@@ -67,7 +123,7 @@ public:
     return visitChildren(ctx);
   }
 
-  virtual std::any visitIdExpr(GuaParser::IdExprContext *ctx) override {
+  virtual std::any visitNewExpr(GuaParser::NewExprContext *ctx) override {
     return visitChildren(ctx);
   }
 
@@ -75,7 +131,7 @@ public:
     return visitChildren(ctx);
   }
 
-  virtual std::any visitRelationalExpr(GuaParser::RelationalExprContext *ctx) override {
+  virtual std::any visitMemberFunctionCallExpr(GuaParser::MemberFunctionCallExprContext *ctx) override {
     return visitChildren(ctx);
   }
 
@@ -83,7 +139,15 @@ public:
     return visitChildren(ctx);
   }
 
+  virtual std::any visitMemberAccessExpr(GuaParser::MemberAccessExprContext *ctx) override {
+    return visitChildren(ctx);
+  }
+
   virtual std::any visitAddSubExpr(GuaParser::AddSubExprContext *ctx) override {
+    return visitChildren(ctx);
+  }
+
+  virtual std::any visitArgList(GuaParser::ArgListContext *ctx) override {
     return visitChildren(ctx);
   }
 
