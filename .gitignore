@@ -1,0 +1,20 @@
+# .gitignore
+
+# Fichiers compilés
+*.class
+*.jar
+
+# Fichiers temporaires
+*.tmp
+*.log
+
+# Répertoire de build
+/build
+/bin
+
+# Dossiers spécifiques à l'IDE
+.vscode/
+.vs/
+
+# Bibliothèque ANTLR
+lib/antlr-4.x-complete.jar
