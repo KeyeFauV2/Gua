@@ -1,0 +1,43 @@
+// Classe FileHandler
+class FileHandler
+    var filename = ""     // string
+    var file = null       // File (type hypothétique)
+
+    // Constructeur
+    function init(filename: string)
+        this.filename = filename
+        this.file = openFile(this.filename) // Fonction hypothétique pour ouvrir un fichier
+        Console:print("File opened: " + this.filename)
+    end
+
+    // Destructeur
+    function deinit()
+        if this.file != null
+            closeFile(this.file) // Fonction hypothétique pour fermer le fichier
+            Console:print("File closed: " + this.filename)
+        end
+    end
+
+    // Méthode pour lire une ligne
+    function readLine() -> string
+        if this.file != null
+            return readFromFile(this.file) // Fonction hypothétique pour lire depuis le fichier
+        else
+            return ""
+        end
+    end
+
+    // Méthode pour écrire une ligne
+    function writeLine(line: string)
+        if this.file != null
+            writeToFile(this.file, line) // Fonction hypothétique pour écrire dans le fichier
+        end
+    end
+end
+
+// Utilisation de FileHandler
+var handler = new FileHandler("data.txt")
+handler:writeLine("Hello, Gua!")
+var line = handler:readLine()
+Console:print("Read line: " + line)
+handler = null // Appelle automatiquement 'deinit' pour fermer le fichier
