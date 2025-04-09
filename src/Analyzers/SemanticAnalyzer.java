@@ -7,7 +7,7 @@ import Visitors.ASTVisitor;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SemanticAnalyzer implements ASTVisitor<Void> {
+public abstract class SemanticAnalyzer implements ASTVisitor<Void> {
     private Map<String, String> symbolTable = new HashMap<>();
 
     @Override

@@ -3,7 +3,6 @@ public class NativeLibrary {
     public static void Console_print(String message) {
         System.out.println("[INFO] " + message);
     }
-
     public static void Console_warn(String message) {
         System.out.println("[WARN] " + message);
     }

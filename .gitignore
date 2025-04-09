@@ -3,6 +3,7 @@
 # Fichiers compilés
 *.class
 *.jar
+*.antlr
 
 # Fichiers temporaires
 *.tmp

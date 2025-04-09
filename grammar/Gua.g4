@@ -5,6 +5,11 @@ grammar Gua;
     package GuaParserGenerated;
 }
 
+@parser::members {
+    // Vous pouvez ajouter des membres de la classe Parser ici si nécessaire
+}
+
+// Parser Rules
 program : statement* EOF ;
 
 statement 

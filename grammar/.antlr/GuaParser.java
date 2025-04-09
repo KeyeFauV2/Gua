@@ -109,6 +109,9 @@ public class GuaParser extends Parser {
 	@Override
 	public ATN getATN() { return _ATN; }
 
+
+	    // Vous pouvez ajouter des membres de la classe Parser ici si nécessaire
+
 	public GuaParser(TokenStream input) {
 		super(input);
 		_interp = new ParserATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);

@@ -17,5 +17,5 @@ public interface ASTVisitor<T> {
     T visitClassInstantiation(ClassInstantiationNode node);
     T visitLiteralExpression(LiteralExpressionNode node);
     T visitVariableExpression(VariableExpressionNode node);
-    // Ajouter d'autres méthodes pour chaque type de nœud
+    // Ajouter d'autres méthodes de visite pour les nouveaux nœuds AST si nécessaire
 }
